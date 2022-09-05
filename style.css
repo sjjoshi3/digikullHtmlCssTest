@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+.navbar{
+  display: flex;
+  height:2.8rem;
+  width: 100vw;
+  background-color: #111;
+ 
+
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 1.2rem; 
+  
+}
+.navbar ul li{
+  display: flex;
+  list-style: none;
+  color: #fff;
+  
+  font-size: 1.6rem;
+  margin-inline-end: 2rem;
+  cursor: pointer;
+  height: 100%;
+}
+
+.navbar ul li:hover{
+  background-color: #fff;
+  color: #111;
+ 
+}
+
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 98vw;
+  padding: 0 4rem;
+}
+
+.content-left-side{
+  height: 200vh;
+  width: 17vw;
+  background-color: rgb(245, 245, 221);
+  position: relative;
+  right: 3.8rem ;
+ 
+  
+}
+
+.content-left-side h3{
+  position: relative;
+  left: 2rem;
+}
+
+.content-left-side ul li{
+  list-style: none;
+  width: 14vw;
+}
+.move{
+  position: relative;
+  right: .3rem;
+}
+
+.content-left-side ul li:hover{
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+h2{
+  color: rgb(26, 79, 26);
+}
+.content-mid-side{
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+  width: 50vw;
+  background-color: #fff;
+  margin-left: 1rem;
+}
+
+.content-mid-side ul{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-mid-side ul li{
+
+list-style: none;
+padding: 1rem;
+color: black;
+}
+
+#kpr{
+  color: white;
+  background-color:black ;
+
+}
+
+
+.content-right-side{
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+  width: 25vw;
+  background-color: #fff;
+  margin-left: 2.6rem;
+ 
+}
+
+
+.box-1 , .box-2{
+  width: 25vw;
+  
+  border: 0.5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-1 {
+  height: 5rem;
+}
+
+.box-2{
+  height: 9rem;
+}
+
+
+.footer{
+  width: auto;
+  
+  font-size: 1.6rem;
+  position: relative;
+  bottom:9rem ;
+  left: 14.3rem;
+
+  color: white;
+  
+}
+
+.footer .block-1{
+  display: flex;
+  align-items: center;
+  background: grey;
+  height: 6rem;
+  padding: 0 2rem;
+}
+
+.footer .block-2{
+  display: flex;
+  align-items: center;
+  background: rgb(58, 57, 57);
+  height: 4rem;
+  padding: 0 2rem;
+}
